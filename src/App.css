@@ -1,0 +1,46 @@
+button, input, label{
+    font-size: 1.3rem;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+
+.conten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Otros estilos para el contenedor del formulario */
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    /* Estilos para cada grupo de etiqueta y entrada */
+  }
+  
+  label {
+    font-weight: bold;
+    /* Estilos para las etiquetas */
+  }
+  
+  input.form-control {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* Estilos para las entradas de texto */
+  }
+  
+  button.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* Estilos para el botón */
+  }
+  
