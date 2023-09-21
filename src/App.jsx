@@ -26,26 +26,28 @@ console.log(users)
   
   return (
     <div>
+      <div className='todo'>
       <h1>App De Registros</h1> 
       <FormUsers
       createUsers={createUsers}
       infoUpdate={infoUpdate}
       updateUsers={updateUsers}
       setInfoUpdate={setInfoUpdate}
-      />  
-      <div>
+      />  </div>  
+      <div className='form'>
         {
 
           users?.map(user => (
-            <UserCard
+
+            <UserCard 
             key={user.id}
             user={user}
             deleteUsers={deleteUsers}
             setInfoUpdate={setInfoUpdate}
-            />
+          />
           ))
         
-        }</div>                                                                                                                    
+        }</div>                                                                                                                  
     
     </div>    
   )
